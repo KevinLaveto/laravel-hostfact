@@ -1,5 +1,5 @@
 {
-    "name": "nickurt/laravel-hostfact",
+    "name": "kevinlaveto/laravel-hostfact",
     "description": "HostFact for Laravel 6.x/7.x/8.x",
     "keywords": ["hostfact", "laravel"],
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nickurt\\HostFact\\": "src/"
+            "kevinlaveto\\HostFact\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -22,7 +22,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "nickurt\\HostFact\\tests\\": "tests"
+            "kevinlaveto\\HostFact\\tests\\": "tests"
         }
     },
     "scripts": {
@@ -34,10 +34,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "nickurt\\HostFact\\ServiceProvider"
+                "kevinlaveto\\HostFact\\ServiceProvider"
             ],
             "aliases": {
-                "HostFact": "nickurt\\HostFact\\Facade"
+                "HostFact": "kevinlaveto\\HostFact\\Facade"
             }
         }
     }
