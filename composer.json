@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kevinlaveto\\HostFact\\": "src/"
+            "nickurt\\HostFact\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -34,10 +34,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "kevinlaveto\\HostFact\\ServiceProvider"
+                "nickurt\\HostFact\\ServiceProvider"
             ],
             "aliases": {
-                "HostFact": "kevinlaveto\\HostFact\\Facade"
+                "HostFact": "nickurt\\HostFact\\Facade"
             }
         }
     }
